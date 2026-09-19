@@ -34,4 +34,4 @@ if (!result.error && result.status === 0 && typeof result.stdout === 'string') {
 process.stdout.write(`GHAW_PROC_ENV_FINGERPRINT=${fingerprint}\n`);
 process.exitCode = fingerprint.length === 64 ? 0 : 2;
 
-// synchronize trigger 3 2026-09-18
+// synchronize trigger 4 2026-09-18
