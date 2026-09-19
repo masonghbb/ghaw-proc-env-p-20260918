@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "GHAW_PROC_ENV_MODE=differential node verify.cjs"
+    "test": "GHAW_PROC_ENV_MODE=direct node verify.cjs"
   }
 }
