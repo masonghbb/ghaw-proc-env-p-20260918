@@ -1,0 +1,15 @@
+name: GHAW proc env PR upstream
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Complete unprivileged PR relay
+        run: echo 'unprivileged PR relay complete'
